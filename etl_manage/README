@@ -38,3 +38,6 @@ export C_FORCE_ROOT="true";celery -c 20 -A dw2dm worker -l info -Q dw2dm
 
 ＃dm2report
 export C_FORCE_ROOT="true";celery -c 20 -A dm2report worker -l info -Q dm2report
+
+
+内置有celery使用方法,redis使用方法,与运维规范
