@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <game name="ares">
+        <platform name="appstoremix" jetlag="-8"/>
+    </game>
+    <game name="kof">
+        <platform name="korea" jetlag="1"/>
+        <platform name="vietnam" jetlag="-1"/>
+        <platform name="thailand" jetlag="-1"/>
+    </game>
+    <game name="orsk">
+        <platform name="JP" jetlag="1"/>
+    </game>
+</data>

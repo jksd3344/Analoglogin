@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <game name="ares" disk="disk1" ip="114.112.49.51"/>
+    <game name="hebe" disk="disk2" ip="114.112.49.51"/>
+    <game name="crius" disk="disk3" ip="114.112.49.51"/>
+    <game name="basic" disk="disk4" ip="114.112.49.51"/>
+    <game name="mostsdk" disk="disk4" ip="114.112.49.51"/>
+    <game name="wanpay" disk="disk4" ip="114.112.49.51"/>
+    <game name="xianpro" disk="disk4" ip="114.112.49.51"/>
+    <game name="kof" disk="disk1" ip="114.112.49.53"/>
+    <game name="master" disk="disk4" ip="114.112.49.51"/>
+    <game name="orsk" disk="disk2" ip="114.112.49.53"/>
+    <game name="kok" disk="disk3" ip="114.112.49.53"/>
+    <game name="icx" disk="disk4" ip="114.112.49.51"/>
+</data>

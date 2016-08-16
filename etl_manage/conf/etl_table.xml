@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <game name="kof" platform="traditional" machine="210.71.227.28" tables="account_info,gold_consume_log,role_day_info,role_upvip_status "/>
+    <game name="kof" platform="traditional" machine="210.71.227.40" tables="gold_recharge_log,role_info,role_login_log,role_uplevel_status"/>
+</data>

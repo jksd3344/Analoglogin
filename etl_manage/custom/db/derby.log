@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+2015-10-09 02:28:09.517 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance a816c00e-0150-4a6d-4e77-00000c013620
+on database directory /data/etl_manage/custom/db/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2015-10-09 02:28:10.188 GMT:
+Shutting down instance a816c00e-0150-4a6d-4e77-00000c013620
+----------------------------------------------------------------
+----------------------------------------------------------------
+2015-10-09 02:28:29.095 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance 08264012-0150-4a6d-4e77-00000c013620
+on database directory /data/etl_manage/custom/db/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2015-10-09 02:28:29.618 GMT:
+Shutting down instance 08264012-0150-4a6d-4e77-00000c013620
+----------------------------------------------------------------

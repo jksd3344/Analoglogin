@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <!--<game name="kof">-->
+        <!--<platform name="korea">-->
+            <!--<machine name="" ip=""/>-->
+            <!--<machine name="" ip=""/>-->
+        <!--</platform>-->
+        <!--<platform name="traditional" machine="-1" ip=""/>-->
+        <!--<platform name="vietnam" machine="-1" ip=""/>-->
+    <!--</game>-->
+    <game name="xianpro" platform="dev" machine="172.16.110.249" ips="172.16.110.249,dev"/>
+    <game name="xianpro" platform="dev" machine="120.26.1.224" ips="120.26.4.231"/>
+</data>

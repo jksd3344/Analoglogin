@@ -1,0 +1,40 @@
+#启动下载分布式任务
+export C_FORCE_ROOT="true";celery -c 20 -A download worker -B -l info -Q download
+
+export C_FORCE_ROOT="true";celery -c 20 -A hadoop worker -B -l info -Q hadoop
+export C_FORCE_ROOT="true";celery -c 20 -A hadoop worker -l info -Q hadoop
+
+#启动项目
+export C_FORCE_ROOT="true";celery -A proj worker -l info -Q download
+
+#启动定时任务，放后台执行 这个是样例
+export C_FORCE_ROOT="true";celery -A proj worker -B -l info -Q download
+
+#启动监控
+celery flower -A proj --address=0.0.0.0 --port=5555  --broker=redis://localhost:6379/0 --tasker=redis://localhost:6379/0
+
+
+
+
+
+//=============================正式任务进程池启动项命令=====================================
+＃downlaod
+export C_FORCE_ROOT="true";celery -c 20 -A download worker -l info -Q download
+
+＃file2dw
+export C_FORCE_ROOT="true";celery -c 20 -A file2dw worker -l info -Q file2dw
+
+# etl_data
+export C_FORCE_ROOT="true";celery -c 20 -A etl_data worker -l info -Q etl_data
+
+＃file2mysql
+export C_FORCE_ROOT="true";celery -c 20 -A file2mysql worker -l info -Q file2mysql
+
+＃mergefile2dw
+export C_FORCE_ROOT="true";celery -c 20 -A mergefile2dw worker -l info -Q mergefile2dw
+
+＃dw2dm
+export C_FORCE_ROOT="true";celery -c 20 -A dw2dm worker -l info -Q dw2dm
+
+＃dm2report
+export C_FORCE_ROOT="true";celery -c 20 -A dm2report worker -l info -Q dm2report
